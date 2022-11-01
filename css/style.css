@@ -117,6 +117,12 @@ padding-top: 4px;
     margin: auto;
 }
 
+.imagen__automovil{
+    width: 400px;
+    height: 240px;
+    margin: auto;
+}
+
 .imagen__logo{
     width: 200px;
     height: 80px;
@@ -162,6 +168,12 @@ padding-top: 4px;
     .imagen__default{
         width: 220px;
         height: 180px;
+        margin: auto;
+    }
+
+    .imagen__automovil{
+        width: 200px;
+        height: 120px;
         margin: auto;
     }
     
