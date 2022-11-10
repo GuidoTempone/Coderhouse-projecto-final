@@ -1,181 +1,173 @@
-/* Damion, Island Moments y inter */
+.titulo_de_nav {
+  background-image: url(../imagenes/asphalt-road-mountain-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: damion;
+  text-align: center;
+  font-size: 140px;
+  text-decoration: underline;
+  display: grid;
+}
 
+.titulo__container {
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
+nav {
+  background-color: #36151e;
+}
 
-.titulo_de_nav{
+h1 {
+  font-weight: bold;
+  font-family: inter;
+  text-align: left;
+}
+
+.footer__container {
+  background-color: #36151e;
+  color: rgb(156, 207, 207);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: grid;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.show {
+  background-color: #833449 !important;
+}
+
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+a:hover {
+  color: white;
+  background-color: #833449;
+  transition: 0.5s;
+}
+
+.cuerpo {
+  background: rgb(54, 21, 30);
+  background: linear-gradient(180deg, rgb(54, 21, 30) 0%, rgb(103, 40, 57) 50%, rgb(54, 21, 30) 100%);
+  color: rgb(218, 213, 213);
+  padding-left: 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+  padding-bottom: 5%;
+  min-width: 100%;
+}
+
+p {
+  width: 80%;
+  padding-top: 10px;
+  grid-area: texto;
+}
+
+ul {
+  background-color: #672839;
+  list-style: none;
+}
+
+.icon__container {
+  gap: 2px;
+  padding-top: 4px;
+}
+
+.carousel-item img {
+  width: 160px;
+  height: 320px;
+  margin: auto;
+}
+
+.imagen__default {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.imagen__automovil {
+  width: 400px;
+  height: 240px;
+  margin: auto;
+}
+
+.imagen__logo {
+  width: 200px;
+  height: 80px;
+  margin: auto;
+}
+
+.dropdown-menu a {
+  background-color: #833449;
+}
+
+.tamanio {
+  width: 70%;
+  padding-top: 10%;
+}
+
+@media screen and (max-width: 750px) {
+  .carousel-item img {
+    width: 70px;
+    height: 140px;
+    margin: auto;
+  }
+  .titulo_de_nav {
     background-image: url(../imagenes/asphalt-road-mountain-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: damion;
     text-align: center;
-    font-size: 140px;
+    font-size: 50px;
     text-decoration: underline;
     display: grid;
-}
-.titulo__container{
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-nav{
-    background-color: #36151e;
-}
-
-h1{
-
-    font-weight: bold;
-    font-family: inter;
-    text-align: left;
-}
-
-.footer__container{
-    background-color: #36151e;
-    color: rgb(156, 207, 207);
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: grid;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 35px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.show{
-    background-color: #833449!important;
-}
-
-.navbar-brand img{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
-a:hover{
-    color: white;
-    background-color: #833449;
-    transition: .5s;
-}
-
-.cuerpo{
-    background: rgb(54,21,30);
-    background: linear-gradient(180deg, rgba(54,21,30,1) 0%, rgba(103,40,57,1) 50%, rgba(54,21,30,1) 100%);
+  }
+  .cuerpo {
+    background: rgb(54, 21, 30);
+    background: linear-gradient(180deg, rgb(54, 21, 30) 0%, rgb(103, 40, 57) 50%, rgb(54, 21, 30) 100%);
     color: rgb(218, 213, 213);
-    padding-left: 8%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2%;
-    padding-bottom: 5%;
-    min-width: 100%;
-}
-
-p{
-    width: 80%;
-    padding-top: 10px;
-    grid-area: texto;
-}
-
-ul{
-    background-color: #672839;
-    list-style: none;
-}
-
-.icon__container{
-gap: 2px;
-padding-top: 4px;
-}
-
-.carousel-item img{
-    width: 160px;
-    height: 320px;
+    grid-template-columns: 100%;
+    padding-bottom: 160px;
+  }
+  .imagen__default {
+    width: 220px;
+    height: 180px;
     margin: auto;
-}
-
-.imagen__default{
-    width: 500px;
-    height: 400px;
-    margin: auto;
-}
-
-.imagen__automovil{
-    width: 400px;
-    height: 240px;
-    margin: auto;
-}
-
-.imagen__logo{
+  }
+  .imagen__automovil {
     width: 200px;
-    height: 80px;
+    height: 120px;
     margin: auto;
+  }
 }
 
-.dropdown-menu a{
-    background-color: #833449;
-}
-
-
-.tamanio{
-    width: 70%;
-    padding-top: 10%;
-}
-
-@media screen and (max-width: 750px) {
-    .carousel-item img{
-        width: 70px;
-        height: 140px;
-        margin: auto;
-    }
-
-    .titulo_de_nav{
-        background-image: url(../imagenes/asphalt-road-mountain-background.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: damion;
-        text-align: center;
-        font-size: 50px;
-        text-decoration: underline;
-        display: grid;
-    }
-    
-    .cuerpo{
-        background: rgb(54,21,30);
-        background: linear-gradient(180deg, rgba(54,21,30,1) 0%, rgba(103,40,57,1) 50%, rgba(54,21,30,1) 100%);
-        color: rgb(218, 213, 213);
-        display: grid;
-        grid-template-columns: 100%;
-        padding-bottom: 160px;
-    }
-
-    .imagen__default{
-        width: 220px;
-        height: 180px;
-        margin: auto;
-    }
-
-    .imagen__automovil{
-        width: 200px;
-        height: 120px;
-        margin: auto;
-    }
-    
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse_entrega3",
+  "version": "1.0.0",
+  "description": "tercera entrega coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuidoTempone/Coderhouse-projecto-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuidoTempone/Coderhouse-projecto-final/issues"
+  },
+  "homepage": "https://github.com/GuidoTempone/Coderhouse-projecto-final#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
