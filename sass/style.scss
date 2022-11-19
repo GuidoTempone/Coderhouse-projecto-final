@@ -24,38 +24,9 @@ $background-color_3: #672839;
 nav {
 	background-color: $background-color_1;
 }
-h1 {
-	font-weight: bold;
-	font-family: $font-family_2;
-	text-align: left;
-}
-.footer__container {
-	background-color: $background-color_1;
-	color: $color_1;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	display: grid;
-}
-.fa-facebook {
-	background: #3B5998;
-	color: $color_2;
-}
-.fa-twitter {
-	background: #55ACEE;
-	color: $color_2;
-}
-.fa-instagram {
-	background: #125688;
-	color: $color_2;
-}
-.fa {
-	padding: 10px;
-	font-size: 30px;
-	width: 35px;
-	text-align: center;
-	text-decoration: none;
-	border-radius: 50%;
+ul {
+	background-color: $background-color_3;
+	list-style: none;
 }
 .show {
 	background-color: $background-color_2 !important;
@@ -74,6 +45,12 @@ a {
 		transition: .5s;
 	}
 }
+.dropdown-menu {
+	a {
+		background-color: $background-color_2;
+	}
+}
+
 .cuerpo {
 	background: rgb(54,21,30);
 	background: linear-gradient(180deg, rgba(54,21,30,1) 0%, rgba(103,40,57,1) 50%, rgba(54,21,30,1) 100%);
@@ -82,21 +59,16 @@ a {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2%;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 	min-width: 100%;
+}
+.relleno{
+	height: 80vh;
 }
 p {
 	width: 80%;
 	padding-top: 10px;
 	grid-area: texto;
-}
-ul {
-	background-color: $background-color_3;
-	list-style: none;
-}
-.icon__container {
-	gap: 2px;
-	padding-top: 4px;
 }
 .carousel-item {
 	img {
@@ -120,23 +92,52 @@ ul {
 	height: 80px;
 	margin: auto;
 }
-.dropdown-menu {
-	a {
-		background-color: $background-color_2;
-	}
-}
 .tamanio {
 	width: 70%;
 	padding-top: 10%;
 }
+h1 {
+	font-weight: bold;
+	font-family: $font-family_2;
+	text-align: left;
+}
+h5{
+	padding-left: 20%;
+}
+.footer__container {
+	background-color: $background-color_1;
+	color: $color_1;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: grid;
+}
+.icon__container {
+	gap: 2px;
+	padding-top: 4px;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: $color_2;
+}
+.fa-twitter {
+	background: #55ACEE;
+	color: $color_2;
+}
+.fa-instagram {
+	background: #125688;
+	color: $color_2;
+}
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 35px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
 @media screen and (max-width: 750px) {
-	.carousel-item {
-		img {
-			width: 70px;
-			height: 140px;
-			margin: auto;
-		}
-	}
+	
 	.titulo_de_nav {
 		background-image: url(../imagenes/asphalt-road-mountain-background.png);
 		background-size: cover;
@@ -152,8 +153,16 @@ ul {
 		background: linear-gradient(180deg, rgba(54,21,30,1) 0%, rgba(103,40,57,1) 50%, rgba(54,21,30,1) 100%);
 		color: $color_3;
 		display: grid;
+		gap: 1%;
 		grid-template-columns: 100%;
-		padding-bottom: 160px;
+		padding-bottom: 60%;
+	}
+	.carousel-item {
+		img {
+			width: 70px;
+			height: 140px;
+			margin: auto;
+		}
 	}
 	.imagen__default {
 		width: 220px;
