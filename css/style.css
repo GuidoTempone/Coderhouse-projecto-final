@@ -162,6 +162,12 @@ h5 {
     grid-template-columns: 100%;
     padding-bottom: 60%;
   }
+  .relleno {
+    height: auto;
+  }
+  h5 {
+    padding-left: 10%;
+  }
   .carousel-item img {
     width: 70px;
     height: 140px;
